@@ -96,7 +96,7 @@ GB50203-2011砌体结构工程 ...</div></div></div><div class="recent-post-item
   return res.json();
 })
 .then(function (data) {
-  var sub = '她那时候还太年轻，不知道所有命运赠送的礼物，早已在暗中标好了价格。'.length == 0  ? new Array() : '她那时候还太年轻，不知道所有命运赠送的礼物，早已在暗中标好了价格。'.split(",");
+  var sub = ''.length == 0  ? new Array() : ''.split(",");
   var both = sub.unshift(data.hitokoto)  
   var typed = new Typed(".subtitle", {
   strings: sub,
